@@ -69,7 +69,7 @@ p, span {
 }
 
 .booked-event input{
-    width: 100%px;
+    width: 100%;
     max-width: 200px;
     height: 30px;
     padding: 4px;
