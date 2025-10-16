@@ -317,6 +317,11 @@ main {
     font-style: italic;
 }
 
+span a{
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
 
 footer{
     background-color: #002e55;
