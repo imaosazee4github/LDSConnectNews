@@ -1,0 +1,175 @@
+/* ====== Base Styles ====== */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #222;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002147;
+  color: #fff;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.logo-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-logo1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+header a {
+  text-decoration: none;
+  background-color: #fff;
+  color: #002147;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+header a:hover {
+  background-color: #e4e4e4;
+}
+
+/* Main Content */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #002147;
+  text-align: center;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+  font-size: 1.8rem;
+}
+
+p {
+  padding: 0 1rem;
+  max-width: 900px;
+  margin: 0 auto 1rem;
+  text-align: justify;
+}
+
+/* Figures & Images */
+figure {
+  margin: 2rem auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+/* Footer (optional if you have one)
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #002147;
+  color: #fff;
+}
+*/
+
+/* ====== RESPONSIVE DESIGN ====== */
+
+/* ----- Mobile Phones (max 600px) ----- */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.3rem;
+  }
+
+  .img-logo1 {
+    width: 40px;
+    height: 40px;
+  }
+
+  header a {
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    padding: 0 0.8rem;
+  }
+
+  figure {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  figcaption {
+    font-size: 0.85rem;
+  }
+}
+
+/* ----- Tablets (600px - 1024px) ----- */
+@media (min-width: 601px) and (max-width: 1024px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  figure {
+    max-width: 95%;
+  }
+}
+
+/* ----- Desktop (above 1024px) ----- */
+@media (min-width: 1025px) {
+  body {
+    padding: 1rem 3rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.05rem;
+  }
+
+  figure img {
+    width: 90%;
+  }
+}

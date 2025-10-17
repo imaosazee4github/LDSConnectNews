@@ -146,6 +146,13 @@ main section blockquote {
         min-height: 200px;
     }
 
+    .tributePic{
+       width: 100%;
+       min-height: 600px;
+       height: auto;
+       min-height: 200px;
+    }
+
     /* Header adjustments for articles page */
     header {
         flex-wrap: wrap;
