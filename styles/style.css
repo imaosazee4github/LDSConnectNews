@@ -255,6 +255,10 @@ main {
     color: #002e55; 
 }
 
+figcaption p{
+    font-size: x-small;
+}
+
 .modal {
   position: fixed;
   inset: 0;
